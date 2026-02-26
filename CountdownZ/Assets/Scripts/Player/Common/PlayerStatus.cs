@@ -12,6 +12,8 @@ public class PlayerStatus : MonoBehaviour,IDamage,IHealable
      public string PlayerName => m_PlayerName;
      public float Health => m_Health;
      public float Speed => m_Speed;
+
+    public bool IsDead => m_Health <= 0;
     void Awake()
     {
         Init_Player_Status();

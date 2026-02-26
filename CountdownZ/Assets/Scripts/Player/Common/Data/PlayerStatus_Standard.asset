@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStatusData
   m_PlayerName: "\uAE30\uBCF8"
   m_Health: 200
-  m_Speed: 10
+  m_Speed: 4
