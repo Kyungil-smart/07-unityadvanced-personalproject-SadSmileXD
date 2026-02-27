@@ -8,7 +8,7 @@ public class PlayerAim : MonoBehaviour
     [SerializeField]private PlayerAnimaction m_PlayerAnimaction;
     private void OnEnable()
     {
-        m_InputSystem.InputActions.Enable();
+       
         m_InputSystem.InputActions.Player.Aim.performed += OnAim;
         m_InputSystem.InputActions.Player.Aim.canceled += OnAim;
         m_InputSystem.InputActions.Player.Shoot.performed += OnShoot;
@@ -23,7 +23,7 @@ public class PlayerAim : MonoBehaviour
         m_InputSystem.InputActions.Player.Shoot.performed -= OnShoot;
         m_InputSystem.InputActions.Player.Shoot.canceled -= OnShoot;
     
-        m_InputSystem.InputActions.Disable();
+        
     }
 
     private void OnAim(InputAction.CallbackContext context)

@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnEnable()
     {
-        // m_InputSystem 대신 m_InputReader.InputActions 를 사용합니다!
+        
         m_InputReader.InputActions.Player.Move.performed += OnMoveInput;
         m_InputReader.InputActions.Player.Move.canceled += OnMoveInput;
         m_InputReader.InputActions.Player.Dash.performed += OnDash;

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerInputReader : MonoBehaviour
 {
@@ -11,6 +12,12 @@ public class PlayerInputReader : MonoBehaviour
         // 여기서 딱 한 번만 생성합니다.
         InputActions = new InputSystem_Actions();
     }
-
-   
+    private void OnEnable()
+    {
+      InputActions.Enable();
+    }
+    private void OnDisable()
+    {
+        InputActions.Disable();
+    }
 }
