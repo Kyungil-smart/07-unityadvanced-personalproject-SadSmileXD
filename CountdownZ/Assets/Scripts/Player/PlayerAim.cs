@@ -6,6 +6,7 @@ public class PlayerAim : MonoBehaviour
 {
     [SerializeField] private PlayerInputReader m_InputSystem;
     [SerializeField]private PlayerAnimaction m_PlayerAnimaction;
+    [SerializeField]private GameObject CrossObj;
     private void OnEnable()
     {
        
@@ -31,12 +32,15 @@ public class PlayerAim : MonoBehaviour
         if (context.performed)
         {
             var flag=context.ReadValueAsButton();
+            
             m_PlayerAnimaction.OnAim(flag);
+            CrossObj.SetActive(flag);
         }
         else if (context.canceled)
         {
             var flag = context.ReadValueAsButton();
             m_PlayerAnimaction.OnAim(flag);
+            CrossObj.SetActive(flag);
         }
     }
     private void OnShoot(InputAction.CallbackContext context)

@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class PlayerAnimactionEvent : MonoBehaviour
 {
-    [SerializeField]PlayerMovement m_movement;
-   
+     
+    [SerializeField] PlayerAudio m_Audio;
+    [SerializeField]private PlayerJump m_Jump;
     public void Jump()
     {
-        m_movement.Jump();
+        m_Jump.Jump();
     }
+    public void MoveSound()
+    {
+        m_Audio.OnPlay();
+    }
+   
 }

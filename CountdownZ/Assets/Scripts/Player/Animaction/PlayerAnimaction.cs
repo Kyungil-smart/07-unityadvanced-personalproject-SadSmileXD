@@ -6,12 +6,13 @@ public class PlayerAnimaction : MonoBehaviour
     [SerializeField] private Animator m_animator;
     [SerializeField] private PlayerMovement player;
 
-    
-    public void SetMove(float x,float y)
+    public void UpdateWalkAnimation(Vector2 input)
     {
-        m_animator.SetFloat("XDir", x);
-        m_animator.SetFloat("YDir", y);
+        // 애니메이션에 대한 책임은 오직 여기에만 있음
+        m_animator.SetFloat("XDir", input.x);
+        m_animator.SetFloat("YDir", input.y);
     }
+   
 
     public void OnJump( )
     {
@@ -29,4 +30,12 @@ public class PlayerAnimaction : MonoBehaviour
     {
         m_animator.SetTrigger("ReLoad");
     }
+    public void SetTrigger(string parameters)=>
+      m_animator.SetTrigger(parameters);
+
+    public void SetBool(string parameters,bool flag)=>
+                m_animator.SetBool(parameters,flag);
+    public void SetFloat(string parameters, float Value)=>
+                m_animator.SetFloat(parameters, Value);
+
 }
