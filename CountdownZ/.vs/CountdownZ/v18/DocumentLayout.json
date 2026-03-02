@@ -3,35 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|c:\\users\\l_l07\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-sadsmilexd\\countdownz\\assets\\scripts\\ui\\mouse\\mousehover\\buttonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\mousehover\\buttonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|c:\\users\\l_l07\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-sadsmilexd\\countdownz\\assets\\scripts\\ui\\mouse\\mouseclick\\implement\\title_scene_gameexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\mouseclick\\implement\\title_scene_gameexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\l_l07\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-sadsmilexd\\countdownz\\assets\\scripts\\ui\\mousehover\\buttonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\ui\\mousehover\\buttonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|c:\\users\\l_l07\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-sadsmilexd\\countdownz\\assets\\scripts\\ui\\mouse\\mouseclick\\implement\\title_scene_onclick_exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\mouseclick\\implement\\title_scene_onclick_exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|c:\\users\\l_l07\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-sadsmilexd\\countdownz\\assets\\scripts\\ui\\mouse\\ui_off.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\ui_off.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\ui\\mouse\\mouseclick\\buttonclick\\buttonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\mouseclick\\buttonclick\\buttonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\ui\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\titlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|c:\\users\\l_l07\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-sadsmilexd\\countdownz\\assets\\scripts\\player\\input_esc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\input_esc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\ui\\mouse\\uiclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\uiclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\inputsystem\\playerinputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputsystem\\playerinputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|c:\\users\\l_l07\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-sadsmilexd\\countdownz\\assets\\scripts\\ui\\mouse\\base\\uiclickbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\base\\uiclickbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\player\\movement\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\movement\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|c:\\users\\l_l07\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-sadsmilexd\\countdownz\\assets\\scripts\\player\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\player\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,28 +31,28 @@
       "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\player\\animaction\\playeranimaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\animaction\\playeranimaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|c:\\users\\l_l07\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-sadsmilexd\\countdownz\\assets\\scripts\\ui\\optctionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\optctionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\inputsystem_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\inputsystem_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\audio\\soundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio\\soundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\player\\animactionevent\\playeranimactionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\animactionevent\\playeranimactionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\common\\interface\\iaudiovolumehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\common\\interface\\iaudiovolumehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\player\\common\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\common\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\ui\\mouse\\mouseclick\\implement\\title_scene_gonextscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\mouseclick\\implement\\title_scene_gonextscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\player\\movement\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\movement\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\ui\\mouse\\mouseclick\\implement\\title_scene_options_click.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\mouseclick\\implement\\title_scene_options_click.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\player\\movement\\playerjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\movement\\playerjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\assets\\scripts\\ui\\mouse\\mousehover\\implement\\title_scene_ui_hover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ADF1ADA-C4A3-79F4-DE1D-3E23CA73EE34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mouse\\mousehover\\implement\\title_scene_ui_hover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,200 +61,175 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 254,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 329,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ButtonHover.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseHover\\ButtonHover.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\MouseHover\\ButtonHover.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseHover\\ButtonHover.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\MouseHover\\ButtonHover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:18:32.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UI_Off.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\UI_Off.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\UI_Off.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\UI_Off.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\UI_Off.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:04:49.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UIClickBase.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\Base\\UIClickBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\Base\\UIClickBase.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\Base\\UIClickBase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\Base\\UIClickBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:04:44.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UIClick.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\UIClick.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\UIClick.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\UIClick.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\UIClick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:04:44.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ButtonHover.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\MouseHover\\ButtonHover.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MouseHover\\ButtonHover.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\MouseHover\\ButtonHover.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\MouseHover\\ButtonHover.cs",
+              "Title": "Title_Scene_OnClick_Exit.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_OnClick_Exit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_OnClick_Exit.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_OnClick_Exit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_OnClick_Exit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:00:36.348Z",
+              "WhenOpened": "2026-03-02T01:27:33.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Title_Scene_GameExit.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_GameExit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_GameExit.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_GameExit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_GameExit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T01:24:53.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Input_ESC.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\Input_ESC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Input_ESC.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\Input_ESC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Input_ESC.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T01:24:44.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PlayerMove.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerMove.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\MoveMent\\PlayerMove.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerMove.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\MoveMent\\PlayerMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA2AAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-02-27T15:04:44.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TitleManager.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\TitleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TitleManager.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\TitleManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\TitleManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:04:44.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PlayerJump.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerJump.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\MoveMent\\PlayerJump.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerJump.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\MoveMent\\PlayerJump.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBUAAAAjAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-02-27T15:04:44.891Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 185,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\MoveMent\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\MoveMent\\PlayerMovement.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:04:44.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "PlayerAim.cs",
               "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\PlayerAim.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAim.cs",
               "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\PlayerAim.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAim.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwDoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAARAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-02-27T15:04:44.905Z"
+              "WhenOpened": "2026-03-02T01:24:44.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InputSystem_Actions.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\InputSystem_Actions.cs",
-              "RelativeDocumentMoniker": "Assets\\InputSystem_Actions.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\InputSystem_Actions.cs",
-              "RelativeToolTip": "Assets\\InputSystem_Actions.cs",
-              "ViewState": "AgIAABcCAAAAAAAAAAAvwCQCAAAPAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PlayerInputReader.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\InputSystem\\PlayerInputReader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputSystem\\PlayerInputReader.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\InputSystem\\PlayerInputReader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputSystem\\PlayerInputReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAcAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-02-27T15:04:44.907Z"
+              "WhenOpened": "2026-03-02T01:24:44.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PlayerDash.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerDash.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\MoveMent\\PlayerDash.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerDash.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\MoveMent\\PlayerDash.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\MoveMent\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\MoveMent\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\MoveMent\\PlayerMovement.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwCkAAABNAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-02-27T15:04:44.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\Common\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Common\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\Common\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Common\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABMAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-02-27T15:04:44.909Z"
+              "WhenOpened": "2026-03-02T01:24:44.475Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "PlayerAnimaction.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\Animaction\\PlayerAnimaction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Animaction\\PlayerAnimaction.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\Animaction\\PlayerAnimaction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Animaction\\PlayerAnimaction.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAtwBwAAAAWAAAAAAAAAA==",
+              "Title": "IAudioVolumeHandler.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Common\\Interface\\IAudioVolumeHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Common\\Interface\\IAudioVolumeHandler.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Common\\Interface\\IAudioVolumeHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Common\\Interface\\IAudioVolumeHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAABAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-02-27T15:04:44.911Z"
+              "WhenOpened": "2026-03-02T01:24:44.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SoundController.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Audio\\SoundController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Audio\\SoundController.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Audio\\SoundController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Audio\\SoundController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-02T01:24:44.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Title_scene_GoNextScene.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_scene_GoNextScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_scene_GoNextScene.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_scene_GoNextScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_scene_GoNextScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-02T01:24:44.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Title_Scene_UI_Hover.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseHover\\implement\\Title_Scene_UI_Hover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\MouseHover\\implement\\Title_Scene_UI_Hover.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseHover\\implement\\Title_Scene_UI_Hover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\MouseHover\\implement\\Title_Scene_UI_Hover.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxsAAAAwAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-02T01:24:44.483Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 265,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonClick.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\ButtonClick\\ButtonClick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\ButtonClick\\ButtonClick.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\ButtonClick\\ButtonClick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\ButtonClick\\ButtonClick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T01:24:44.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OptctionManager.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\OptctionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\OptctionManager.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\OptctionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\OptctionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T01:24:44.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "PlayerAnimactionEvent.cs",
-              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\AnimactionEvent\\PlayerAnimactionEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\AnimactionEvent\\PlayerAnimactionEvent.cs",
-              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\Player\\AnimactionEvent\\PlayerAnimactionEvent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\AnimactionEvent\\PlayerAnimactionEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAbAAAAAAAAAA==",
+              "Title": "Title_Scene_Options_Click.cs",
+              "DocumentMoniker": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_Options_Click.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_Options_Click.cs",
+              "ToolTip": "C:\\Users\\l_l07\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\07-unityadvanced-personalproject-SadSmileXD\\CountdownZ\\Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_Options_Click.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Mouse\\MouseClick\\implement\\Title_Scene_Options_Click.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-02-27T15:04:44.912Z"
+              "WhenOpened": "2026-03-02T01:24:44.5Z"
             }
           ]
         }

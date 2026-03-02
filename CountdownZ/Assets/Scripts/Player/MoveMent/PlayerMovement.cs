@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]private PlayerJump m_PlayerJump;
     private void Awake()
     {
+        m_InputReader= PlayerInputReader.Instance;
         if (m_Controller == null)
             m_Controller = GetComponent<CharacterController>();
     }

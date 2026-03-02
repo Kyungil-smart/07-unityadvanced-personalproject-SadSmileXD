@@ -4,9 +4,13 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class PlayerAim : MonoBehaviour
 {
-    [SerializeField] private PlayerInputReader m_InputSystem;
+    [SerializeField]private PlayerInputReader m_InputSystem;
     [SerializeField]private PlayerAnimaction m_PlayerAnimaction;
     [SerializeField]private GameObject CrossObj;
+    private void Awake()
+    {
+        m_InputSystem = PlayerInputReader.Instance;
+    }
     private void OnEnable()
     {
        
