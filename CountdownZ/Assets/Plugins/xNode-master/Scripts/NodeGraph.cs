@@ -45,11 +45,15 @@ namespace XNode {
 
         /// <summary> Remove all nodes and connections from the graph </summary>
         public virtual void Clear() {
-            if (Application.isPlaying) {
-                for (int i = 0; i < nodes.Count; i++) {
-                    if (nodes[i] != null) Destroy(nodes[i]);
-                }
-            }
+            //if (Application.isPlaying)
+            //{
+            //    for (int i = 0; i < nodes.Count; i++)
+            //    {
+            //        if (nodes[i] != null) Destroy(nodes[i]);
+            //    }
+            //}
+            if (!Application.isPlaying) return;
+
             nodes.Clear();
         }
 
