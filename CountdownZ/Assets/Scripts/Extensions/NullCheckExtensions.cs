@@ -2,8 +2,18 @@ using UnityEngine;
 
 public static class NullCheckExtensions
 {
-    public static bool IsNotNull<T>(this T obj) where T : class
+    public static bool IsNotNull<T>(this T obj) where T : UnityEngine.Object
     {
-        return obj != null;
+        if(obj == null)
+        {
+            Debug.Log("IsNotNull null");
+            return false;
+
+        }
+        else
+        {
+            return true;
+        }
+ 
     }
 }

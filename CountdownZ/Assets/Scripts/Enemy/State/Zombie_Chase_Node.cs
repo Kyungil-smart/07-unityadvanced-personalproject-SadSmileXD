@@ -1,14 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using XNode;
-[CreateNodeMenu("ZombieAI/Node/Awake")]
-public class Zombie_Awake_Node : BaseNode
+using UnityEngine.AI;
+using static XNode.Node;
+[CreateNodeMenu("ZombieAI/Node/Chase")]
+public class Zombie_Chase_Node : BaseNode
 {
-    [Output(connectionType = ConnectionType.Multiple)] public bool outPort;
-
-
-
+    public NavMeshAgent m_Agent;
 
     public override void Initialize(MonoBehaviour Owner, object[] datas)
     {
@@ -16,18 +14,16 @@ public class Zombie_Awake_Node : BaseNode
     }
     public override void Enter()
     {
-        Debug.Log("Awake 진입");
-        OnChanageState("outPort");
-       
+         
     }
 
     public override void Update()
     {
-         
+       // m_Agent?.destination();
     }
+
     public override void Exit()
     {
          
     }
-   
 }

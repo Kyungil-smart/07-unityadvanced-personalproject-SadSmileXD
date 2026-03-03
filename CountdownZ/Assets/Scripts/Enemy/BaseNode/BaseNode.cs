@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using XNode;
 
-public class BaseNode : Node,IState
+public class BaseNode : Node,IState,Iinitialize
 {
     // 각 포트별로 마지막 활성화 시간을 저장하는 딕셔너리
     // 포트 이름을 Key로 사용하여 개별 선의 상태를 관리합니다.
@@ -45,5 +45,9 @@ public class BaseNode : Node,IState
     public virtual void Exit()
     {
        
+    }
+    public virtual void Initialize(MonoBehaviour Owner, object[] datas)
+    {
+
     }
 }

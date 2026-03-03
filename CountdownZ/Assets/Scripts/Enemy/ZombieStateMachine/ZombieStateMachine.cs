@@ -11,9 +11,10 @@ public class ZombieStateMachine : MonoBehaviour
     [SerializeField] private ZombieGraph m_RunTimeGraph;
     public BaseNode CurrentState;
     public BaseNode defaultNode;
+    [SerializeField]private Object[] objects;
     void Awake()
     {
-        m_RunTimeGraph=Instantiate(m_RunTimeGraph);
+        m_RunTimeGraph= m_graph.Duplicate();
         InitializeNodes();
         foreach (var node in m_RunTimeGraph.nodes)
         {
@@ -21,6 +22,8 @@ public class ZombieStateMachine : MonoBehaviour
             {
                 baseNode.OnChanageState += SetNextState;
                 baseNode.OnChanageState2 += SetNextState;
+                var init = (node as Iinitialize) ?? new EmptyInitAction(this);
+                init.Initialize(this, objects);
             }
         }
     }
