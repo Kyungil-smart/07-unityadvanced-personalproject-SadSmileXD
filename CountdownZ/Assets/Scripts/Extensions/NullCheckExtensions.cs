@@ -6,7 +6,7 @@ public static class NullCheckExtensions
     {
         if(obj == null)
         {
-            Debug.Log("IsNotNull null");
+            
             return false;
 
         }

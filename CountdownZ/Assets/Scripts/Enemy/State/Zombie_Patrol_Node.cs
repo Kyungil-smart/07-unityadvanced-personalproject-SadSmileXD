@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using static UnityEngine.UI.GridLayoutGroup;
 [CreateNodeMenu("ZombieAI/Node/Patrol")]
 public class Zombie_Patrol_Node : BaseNode
 {
@@ -13,9 +14,13 @@ public class Zombie_Patrol_Node : BaseNode
 
     [Output(connectionType = ConnectionType.Multiple)] public bool outPort;
 
-
+    public float viewDistance = 15f;    // 감지 거리
+    public float viewAngle = 110f;     // 시야각 (좌우 합산)
+    public LayerMask targetMask;        // 플레이어 레이어
+    public ZombieSensor m_Sensor;
     public override void Initialize(MonoBehaviour Owner, object[] datas)
     {
+      
         foreach (var data in datas)
         {
             if(data is GameObject isNavMesh)
@@ -28,6 +33,11 @@ public class Zombie_Patrol_Node : BaseNode
             {
                 m_PatrolPoint = ZPP;
                 Debug.Log("Zombie_Patrol_Point찾음");
+            }
+
+            if(data is ZombieSensor Sensor)
+            {
+                m_Sensor=Sensor;
             }
         }
     }
@@ -44,6 +54,12 @@ public class Zombie_Patrol_Node : BaseNode
 
     public override void Update()
     {
+        
+         if (m_Sensor.IsDetected)
+         {
+            m_agent.ResetPath();
+            OnChanageState2("outPort", "Zombie_Chase_");
+         }
         var distance = Vector3.Distance(m_agent.gameObject.transform.position, m_CurrentPatrolPoint.position);
      
         if (Mathf.Abs(distance) < StopDistance)
@@ -56,14 +72,15 @@ public class Zombie_Patrol_Node : BaseNode
         else
         {
        
-            Debug.Log($"거림 {distance}");
+           
            
         }
-       
+      
     }
 
     public override void Exit()
     {
          
     }
+    
 }

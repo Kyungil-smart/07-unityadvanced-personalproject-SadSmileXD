@@ -10,16 +10,18 @@ public class zombieGraphEditor : NodeGraphEditor
     public override Gradient GetNoodleGradient(NodePort output, NodePort input)
     {
         BaseNode node = output.node as BaseNode;
-
         if (node != null)
         {
             float lastTime = node.GetPortActiveTime(output.fieldName);
-            float elapsed = Time.realtimeSinceStartup - lastTime;
+
+            // ⭐ 수정 포인트: EditorApplication.timeSinceStartup 사용
+            float elapsed = (float)EditorApplication.timeSinceStartup - lastTime;
             float duration = 0.8f;
 
             if (elapsed < duration)
             {
-                float blink = Mathf.Sin(Time.realtimeSinceStartup * 40f) * 0.5f + 0.5f;
+                // 이하는 동일...
+                float blink = Mathf.Sin((float)EditorApplication.timeSinceStartup * 40f) * 0.5f + 0.5f;
                 float intensity = Mathf.Clamp01(1f - (elapsed / duration));
 
                 Color transitionColor = Color.Lerp(Color.gray, Color.cyan * 2f, intensity * blink);
