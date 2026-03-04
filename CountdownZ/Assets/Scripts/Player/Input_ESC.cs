@@ -7,9 +7,10 @@ public class Input_ESC : MonoBehaviour
 {
     private  PlayerInputReader m_input;
     [SerializeField] private GameObject canvasobj;
-    [SerializeField] ZombieStateMachine mdsds;
+   
     private void OnEnable()
     {
+       
         m_input = PlayerInputReader.Instance;
      
     }
@@ -24,7 +25,7 @@ public class Input_ESC : MonoBehaviour
 
     private void OnCanvasActive(InputAction.CallbackContext ctx)
     {
-        mdsds.SetNextState("outPort");
+        
         var flag = canvasobj.activeSelf;
         canvasobj.SetActive(!flag);
     }

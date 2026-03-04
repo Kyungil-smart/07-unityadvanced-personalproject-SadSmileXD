@@ -1,3 +1,4 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -14,6 +15,8 @@ public class PlayerStatus : MonoBehaviour,IDamage,IHealable
      public float Speed => m_Speed;
 
     public bool IsDead => m_Health <= 0;
+
+    public event Action<float> OnChangeHealth;
     void Awake()
     {
         Init_Player_Status();
@@ -29,8 +32,12 @@ public class PlayerStatus : MonoBehaviour,IDamage,IHealable
     }
 
     //데미 받는 인터페이스 함수
-    public void OnDamage(float damage) => m_Health -= damage;
-    //힐 받는 인터페이스 함수
+    public void OnDamage(float damage)
+    {
+        m_Health -= damage;
+        OnChangeHealth.Invoke(m_Health);
+    }
+        //힐 받는 인터페이스 함수
     public void OnHeal(float heal) => m_Health += heal;
 
 }

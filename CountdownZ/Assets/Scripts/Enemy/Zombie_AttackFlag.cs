@@ -28,7 +28,7 @@ public class Zombie_AttackFlag : MonoBehaviour
 
             if (hit == null) continue;
 
-            var damageTarget = hit.GetComponent<IDamage>();
+            var damageTarget = hit.GetComponentInChildren<IDamage>();
             if (damageTarget != null)
             {
                 damageTarget.OnDamage(damage);

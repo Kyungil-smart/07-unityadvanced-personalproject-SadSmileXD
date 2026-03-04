@@ -30,14 +30,33 @@ public class OptctionManager : Singleton<OptctionManager>,IAudioVolumeHandler
     }
     public void OnEnable()
     {
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        var flag = (SceneManager.GetActiveScene().name) == "TitleScene";
+        if (flag == false)
+        {
+
+            //Cursor.lockState = CursorLockMode.None;
+            //Cursor.visible = true;
+            CursorManager.Instance.OnEnableCursor();
+        }
+     
+         SceneManager.sceneLoaded += OnSceneLoaded;
     }
     public void OnDisable()
     {
+        var flag = (SceneManager.GetActiveScene().name) == "TitleScene";
+        if (flag == false)
+        {
+            CursorManager.Instance.OndisableCursor();
+
+            //Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.visible = false;
+        }
+      
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+      
         this.gameObject.SetActive(false);
     }
 }

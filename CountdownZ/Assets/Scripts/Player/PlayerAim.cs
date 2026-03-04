@@ -9,20 +9,22 @@ public class PlayerAim : MonoBehaviour
     [SerializeField] private LayerMask m_LayerMask;
 
     [Header("사격 설정")]
-    [Tooltip("총알이 발사되는 간격(초)입니다. 0.1이면 1초에 10발 쏩니다.")]
+  
     [SerializeField] private float m_FireRate = 0.1f;
     [SerializeField] private float m_Damage = 10f;
 
     private bool m_IsShooting; // shootflag 이름 변경
     private float m_LastShootTime = 0f; // 마지막으로 총을 쏜 시간을 기억할 변수
-
+    bool flag ;
     private void Awake()
     {
+        flag = false;
         m_InputSystem ??= PlayerInputReader.Instance;
     }
 
     private void OnEnable()
     {
+       
         m_InputSystem.InputActions.Player.Aim.performed += OnAim;
         m_InputSystem.InputActions.Player.Aim.canceled += OnAim;
         m_InputSystem.InputActions.Player.Shoot.performed += OnShoot;
@@ -32,6 +34,7 @@ public class PlayerAim : MonoBehaviour
 
     private void OnDisable()
     {
+       
         m_InputSystem.InputActions.Player.ReLoad.performed -= ReLoad;
         m_InputSystem.InputActions.Player.Aim.performed -= OnAim;
         m_InputSystem.InputActions.Player.Aim.canceled -= OnAim;
@@ -64,10 +67,8 @@ public class PlayerAim : MonoBehaviour
         {
             // [중요 최적화] TryGetComponent를 사용하여 에러 방지
             // 맞은 오브젝트에 IDamage 인터페이스가 없다면 쿨하게 무시합니다.
-            if (hit.transform.TryGetComponent(out IDamage damageTarget))
-            {
-                damageTarget.OnDamage(m_Damage);
-            }
+            var damage = hit.transform.gameObject.GetComponentInChildren<IDamage>();
+            damage?.OnDamage(m_Damage);
         }
     }
 
@@ -89,4 +90,6 @@ public class PlayerAim : MonoBehaviour
     {
         m_PlayerAnimaction.ReLoad();
     }
+  
+     
 }

@@ -21,8 +21,7 @@ public class PlayerMouseLook : MonoBehaviour
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        CursorManager.Instance.OndisableCursor();
     }
 
     private void Update()

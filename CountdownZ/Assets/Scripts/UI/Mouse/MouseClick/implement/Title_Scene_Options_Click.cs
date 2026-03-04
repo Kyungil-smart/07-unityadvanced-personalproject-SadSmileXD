@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 [CreateAssetMenu(fileName = "Title_Scene_Options_Click", menuName = "Scriptable Objects/UI/ButtonClick/Opction")]
 
@@ -46,6 +47,7 @@ public class Title_Scene_Options_Click : UIClickBase
     }
     private void ButtonAction()
     {
+        
         var flgs = m_canvasobject.activeSelf;
         m_canvasobject.SetActive(!flgs);
     }
