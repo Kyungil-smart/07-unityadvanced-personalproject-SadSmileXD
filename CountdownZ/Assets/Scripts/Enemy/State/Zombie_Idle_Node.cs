@@ -12,7 +12,7 @@ public class Zombie_Idle_Node : BaseNode
     }
     public override void Enter()
     {
-        Debug.Log("Idle 진입");
+       
         OnChanageState("outPort");
     }
 

@@ -57,7 +57,7 @@ public class ZombieStateMachine : MonoBehaviour
             CurrentState.TriggerTransition(portName);
             CurrentState.Exit();
             CurrentState = port.Connection.node as BaseNode;
-            CurrentState?.Enter();
+            CurrentState.Enter();
         }
     }
     public void SetNextState(string portName, string targetNodeName)

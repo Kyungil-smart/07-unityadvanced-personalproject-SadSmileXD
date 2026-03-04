@@ -55,8 +55,9 @@ public class ZombieSensor : MonoBehaviour
     // 에디터에서 시야 범위를 그리는 기즈모
     private void OnDrawGizmos()
     {
+        
         // 못 찾으면 파란색, 찾으면 빨간색
-        Gizmos.color = IsDetected ? Color.red : Color.blue;
+        Gizmos.color = m_IsDetected ? Color.red : Color.blue;
 
         // 1. 탐지 거리 원 그리기
         Gizmos.DrawWireSphere(transform.position, viewDistance);
@@ -69,7 +70,7 @@ public class ZombieSensor : MonoBehaviour
         Gizmos.DrawRay(transform.position + Vector3.up * 1.5f, rightBoundary * viewDistance);
 
         // 3. 타겟이 있다면 연결선 그리기
-        if (IsDetected && target != null)
+        if (m_IsDetected && target != null)
         {
             Gizmos.DrawLine(transform.position + Vector3.up * 1.5f, target.position);
         }

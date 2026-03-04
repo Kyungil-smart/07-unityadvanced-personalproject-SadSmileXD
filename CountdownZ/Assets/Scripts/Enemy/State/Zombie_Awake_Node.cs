@@ -16,7 +16,7 @@ public class Zombie_Awake_Node : BaseNode
     }
     public override void Enter()
     {
-        Debug.Log("Awake 진입");
+ 
         OnChanageState("outPort");
        
     }

@@ -10,6 +10,7 @@ public class Zombie_Patrol_Node : BaseNode
     public Zombie_Patrol_Point m_PatrolPoint;
     public Transform m_CurrentPatrolPoint;
     public float StopDistance;
+    public Animator m_animator;
     [Input(connectionType = ConnectionType.Multiple)] public bool inputPort;
 
     [Output(connectionType = ConnectionType.Multiple)] public bool outPort;
@@ -23,16 +24,17 @@ public class Zombie_Patrol_Node : BaseNode
       
         foreach (var data in datas)
         {
-            if(data is GameObject isNavMesh)
+            if(data is GameObject OBJ)
             {
-                isNavMesh.TryGetComponent<NavMeshAgent>(out m_agent);
-                Debug.Log("찾음");
+                OBJ.TryGetComponent<NavMeshAgent>(out m_agent);
+               
+                OBJ.TryGetComponent<Animator>(out m_animator);
             }
 
             if(data is Zombie_Patrol_Point ZPP)
             {
                 m_PatrolPoint = ZPP;
-                Debug.Log("Zombie_Patrol_Point찾음");
+                
             }
 
             if(data is ZombieSensor Sensor)
@@ -43,6 +45,7 @@ public class Zombie_Patrol_Node : BaseNode
     }
     public override void Enter()
     {
+        m_animator.SetBool("Walk", true);
         bool flag = m_CurrentPatrolPoint.IsNotNull();
         if (flag==false)
         {
@@ -57,7 +60,7 @@ public class Zombie_Patrol_Node : BaseNode
         
          if (m_Sensor.IsDetected)
          {
-            m_agent.ResetPath();
+          
             OnChanageState2("outPort", "Zombie_Chase_");
          }
         var distance = Vector3.Distance(m_agent.gameObject.transform.position, m_CurrentPatrolPoint.position);
@@ -71,7 +74,7 @@ public class Zombie_Patrol_Node : BaseNode
         }
         else
         {
-       
+        
            
            
         }
@@ -80,7 +83,8 @@ public class Zombie_Patrol_Node : BaseNode
 
     public override void Exit()
     {
-         
+        m_animator.SetBool("Walk", false);
+        m_agent.ResetPath();
     }
     
 }
