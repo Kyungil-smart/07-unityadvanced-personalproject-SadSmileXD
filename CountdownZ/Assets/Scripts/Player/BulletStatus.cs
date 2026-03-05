@@ -29,6 +29,10 @@ public class BulletStatus : MonoBehaviour
     {
         CanShoot = true;
     }
+    private void Start()
+    {
+        OnChangeHealth.Invoke(UpdateBulletsInfo());
+    }
     public void OnShoot()
     {
         CurrentMagazine-=1;

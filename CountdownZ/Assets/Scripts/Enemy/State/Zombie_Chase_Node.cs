@@ -15,6 +15,7 @@ public class Zombie_Chase_Node : BaseNode
 
     public float ChanageDistance;
     private Transform m_Pos;
+    [Header("순찰 속도")] public float moveSpeed;
     public override void Initialize(MonoBehaviour Owner, object[] datas)
     {
         m_Pos = Owner.transform;
@@ -34,6 +35,7 @@ public class Zombie_Chase_Node : BaseNode
     }
     public override void Enter()
     {
+        m_Agent.speed = moveSpeed;
         m_Animator.SetBool("Run", true);
       
     }

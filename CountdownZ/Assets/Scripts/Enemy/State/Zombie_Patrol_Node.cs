@@ -14,7 +14,8 @@ public class Zombie_Patrol_Node : BaseNode
     [Input(connectionType = ConnectionType.Multiple)] public bool inputPort;
 
     [Output(connectionType = ConnectionType.Multiple)] public bool outPort;
-
+    
+    [Header("순찰 속도")]public float moveSpeed; 
     public float viewDistance = 15f;    // 감지 거리
     public float viewAngle = 110f;     // 시야각 (좌우 합산)
     public LayerMask targetMask;        // 플레이어 레이어
@@ -46,6 +47,7 @@ public class Zombie_Patrol_Node : BaseNode
     public override void Enter()
     {
         m_animator.SetBool("Walk", true);
+        m_agent.speed = moveSpeed;
         bool flag = m_CurrentPatrolPoint.IsNotNull();
         if (flag==false)
         {

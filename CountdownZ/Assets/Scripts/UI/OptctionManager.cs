@@ -33,9 +33,6 @@ public class OptctionManager : Singleton<OptctionManager>,IAudioVolumeHandler
         var flag = (SceneManager.GetActiveScene().name) == "TitleScene";
         if (flag == false)
         {
-
-            //Cursor.lockState = CursorLockMode.None;
-            //Cursor.visible = true;
             CursorManager.Instance.OnEnableCursor();
         }
      
@@ -48,8 +45,7 @@ public class OptctionManager : Singleton<OptctionManager>,IAudioVolumeHandler
         {
             CursorManager.Instance.OndisableCursor();
 
-            //Cursor.lockState = CursorLockMode.Locked;
-            //Cursor.visible = false;
+            
         }
       
         SceneManager.sceneLoaded -= OnSceneLoaded;
