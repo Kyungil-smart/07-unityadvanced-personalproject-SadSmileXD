@@ -11,17 +11,28 @@ public class PlayerStatus : MonoBehaviour,IDamage,IHealable
     [SerializeField]private float m_Speed;
 #endregion
      public string PlayerName => m_PlayerName;
-     public float Health => m_Health;
+     public float Health
+     {
+        get =>   m_Health;
+        set
+        {
+            m_Health=Mathf.Clamp(value, 0, MAXHEALTH);
+        }    
+     }
      public float Speed => m_Speed;
-
+    private const float MAXHEALTH = 500f;
     public bool IsDead => m_Health <= 0;
 
-    public event Action<float> OnChangeHealth;
+    public event Action<string> OnChangeHealth;
     void Awake()
     {
         Init_Player_Status();
     }
-
+    private void Start()
+    {
+        
+        OnChangeHealth.Invoke(MyHealthText());
+    }
     //플레이어 Status 초기화 함수
     private void Init_Player_Status()
     {
@@ -34,10 +45,15 @@ public class PlayerStatus : MonoBehaviour,IDamage,IHealable
     //데미 받는 인터페이스 함수
     public void OnDamage(float damage)
     {
-        m_Health -= damage;
-        OnChangeHealth.Invoke(m_Health);
+        Health -= damage;
+        OnChangeHealth.Invoke(MyHealthText());
     }
         //힐 받는 인터페이스 함수
     public void OnHeal(float heal) => m_Health += heal;
 
+    private string MyHealthText()
+    {
+        var text = m_Health.ToString() + "/" + MAXHEALTH.ToString();
+        return text;
+    }
 }

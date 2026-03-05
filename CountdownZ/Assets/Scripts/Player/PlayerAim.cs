@@ -12,10 +12,13 @@ public class PlayerAim : MonoBehaviour
   
     [SerializeField] private float m_FireRate = 0.1f;
     [SerializeField] private float m_Damage = 10f;
-
+    [SerializeField] private GameObject m_zomcam;
     private bool m_IsShooting; // shootflag 이름 변경
     private float m_LastShootTime = 0f; // 마지막으로 총을 쏜 시간을 기억할 변수
     bool flag ;
+
+    public BulletStatus m_bst;
+    [SerializeField] private AudioSource AudioSource;
     private void Awake()
     {
         flag = false;
@@ -58,6 +61,9 @@ public class PlayerAim : MonoBehaviour
 
     private void PerformRaycastShoot()
     {
+        if (!m_bst.CanShoot) return;
+        m_bst.OnShoot();
+        AudioSource.Play();
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
 
         // 디버그 레이가 너무 빨리 사라져서 안 보일까 봐 1초간 유지되도록(시간 매개변수) 추가했습니다.
@@ -75,6 +81,14 @@ public class PlayerAim : MonoBehaviour
     // --- 아래는 이전 답변에서 알려드렸던 최적화된(if문 없는) 인풋 로직 적용 ---
     private void OnAim(InputAction.CallbackContext context)
     {
+        if(context.performed)
+        {
+            m_zomcam.SetActive(true);
+        }
+        else if(context.canceled)
+        {
+            m_zomcam.SetActive(false);
+        }
         bool isAiming = context.ReadValueAsButton();
         m_PlayerAnimaction.OnAim(isAiming);
         CrossObj.SetActive(isAiming);
@@ -82,6 +96,9 @@ public class PlayerAim : MonoBehaviour
 
     private void OnShoot(InputAction.CallbackContext context)
     {
+        if (!m_bst.CanShoot) return;
+        
+       
         m_IsShooting = context.ReadValueAsButton();
         m_PlayerAnimaction.OnShoot(m_IsShooting);
     }

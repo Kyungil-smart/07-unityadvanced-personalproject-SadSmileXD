@@ -172,6 +172,25 @@ MonoBehaviour:
   - {fileID: 5433749761705684436}
   - {fileID: -3195140093111949143}
   - {fileID: -3146550237664405986}
+  - {fileID: 2204342563812066760}
+--- !u!114 &2204342563812066760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6035b4dfe30d7948a4dcd4f35196410, type: 3}
+  m_Name: Zombie_Dead_
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 152, y: -424}
+  ports:
+    keys: []
+    values: []
+  m_animator: {fileID: 0}
 --- !u!114 &3540350995527643509
 MonoBehaviour:
   m_ObjectHideFlags: 0

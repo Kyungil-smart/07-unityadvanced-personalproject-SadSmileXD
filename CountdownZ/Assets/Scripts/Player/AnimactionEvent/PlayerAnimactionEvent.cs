@@ -7,6 +7,7 @@ public class PlayerAnimactionEvent : MonoBehaviour
      
     [SerializeField] PlayerAudio m_Audio;
     [SerializeField]private PlayerJump m_Jump;
+   
     public void Jump()
     {
         m_Jump.Jump();
@@ -16,4 +17,5 @@ public class PlayerAnimactionEvent : MonoBehaviour
         m_Audio.OnPlay();
     }
    
+  
 }

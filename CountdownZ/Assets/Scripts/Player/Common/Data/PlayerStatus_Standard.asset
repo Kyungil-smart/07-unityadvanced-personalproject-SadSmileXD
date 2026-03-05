@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6386d9cfae10f45b45140ac0cc24bf, type: 3}
   m_Name: PlayerStatus_Standard
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStatusData
-  m_PlayerName: "\uAE30\uBCF8"
-  m_Health: 200
+  m_PlayerName: nomal
+  m_Health: 500
   m_Speed: 4

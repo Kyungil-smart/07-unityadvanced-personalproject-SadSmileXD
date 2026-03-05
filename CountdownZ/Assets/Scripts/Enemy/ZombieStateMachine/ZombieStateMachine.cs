@@ -11,10 +11,14 @@ public class ZombieStateMachine : MonoBehaviour
     [SerializeField] private ZombieGraph m_RunTimeGraph;
     public BaseNode CurrentState;
     public BaseNode defaultNode;
+    public BaseNode DeadNode;
     [SerializeField]private Object[] objects;
+
+    [SerializeField] private EnemyStatus m_status;
     void Awake()
     {
-        m_RunTimeGraph= m_graph.Duplicate();
+        m_status.OnDeath += OnDeath;
+        m_RunTimeGraph = m_graph.Duplicate();
         InitializeNodes();
         foreach (var node in m_RunTimeGraph.nodes)
         {
@@ -33,6 +37,7 @@ public class ZombieStateMachine : MonoBehaviour
     }
     private void OnDisable()
     {
+        m_status.OnDeath -= OnDeath;
         foreach (var node in m_RunTimeGraph.nodes)
         {
             if (node is BaseNode baseNode)
@@ -90,5 +95,13 @@ public class ZombieStateMachine : MonoBehaviour
     {
         CurrentState = m_RunTimeGraph.nodes.OfType<Zombie_Awake_Node>().FirstOrDefault();
         defaultNode  = m_RunTimeGraph.nodes.OfType<Zombie_Idle_Node>().FirstOrDefault();
+        DeadNode= m_RunTimeGraph.nodes.OfType<Zombie_Dead_Node>().FirstOrDefault();
+    }
+
+    private void OnDeath()
+    {
+        CurrentState.Exit();
+        CurrentState = DeadNode;
+        CurrentState.Enter();
     }
  }

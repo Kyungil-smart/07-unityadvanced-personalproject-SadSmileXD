@@ -10,4 +10,9 @@ public class Zombie_Animaction_Event : MonoBehaviour
     {
         m_Machine.SetNextState(m_NextOutputName);
     }
+
+    public void OnDestroyThisGameObject()
+    {
+        Destroy(this.gameObject);
+    }
 }
