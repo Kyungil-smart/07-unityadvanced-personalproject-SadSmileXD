@@ -40,9 +40,23 @@ public class BulletStatus : MonoBehaviour
 
     private string UpdateBulletsInfo()
     {
-        var text = m_CurrentMagazine.ToString() + '/' + MAXBULLETS.ToString();
+        var text ="Bullets:"+m_CurrentMagazine.ToString() + '/' + holdingBullets.ToString();
         return text;
     }
-
+    public void ReLoadData()
+    {
+        var count = MAXBULLETS - m_CurrentMagazine;
+        if((holdingBullets-count)<0)
+        {
+            m_CurrentMagazine += holdingBullets;
+            holdingBullets = 0;
+        }
+        else
+        {
+           holdingBullets-=count;
+           m_CurrentMagazine += count;
+        }
+        OnChangeHealth.Invoke(UpdateBulletsInfo());
+    }
 
 }

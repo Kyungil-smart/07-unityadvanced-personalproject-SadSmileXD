@@ -279,7 +279,7 @@ MonoBehaviour:
   m_animator: {fileID: 0}
   inputPort: 0
   outPort: 0
-  moveSpeed: 5
+  moveSpeed: 3
   viewDistance: 15
   viewAngle: 110
   targetMask:

@@ -22,6 +22,7 @@ public class OptctionManager : Singleton<OptctionManager>,IAudioVolumeHandler
     }
     private void Awake()
     {
+        Time.timeScale = 1f;
         base.Awake();
         m_slider.value = 0.5f;
         volume = m_slider.value;

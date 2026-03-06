@@ -10,6 +10,7 @@ public class EnemyStatus : MonoBehaviour,IDamage
     [SerializeField]private float MaxHp;
     public event Action OnDeath;
     public bool isDeath;
+     
     public float hp
     {
         get => m_hp;
@@ -19,6 +20,7 @@ public class EnemyStatus : MonoBehaviour,IDamage
             if(m_hp<=0)
             {
                 isDeath = true;
+                
                 OnDeath.Invoke();
             }
             else

@@ -105,7 +105,10 @@ public class PlayerAim : MonoBehaviour
 
     private void ReLoad(InputAction.CallbackContext context)
     {
+        if (m_bst.holdingBullets == 0) return;
+        if (m_bst.CurrentMagazine == 200) return;
         m_PlayerAnimaction.ReLoad();
+        m_bst.ReLoadData();
     }
   
      

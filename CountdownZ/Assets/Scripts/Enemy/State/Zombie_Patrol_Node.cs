@@ -9,6 +9,7 @@ public class Zombie_Patrol_Node : BaseNode
     public NavMeshAgent m_agent;
     public Zombie_Patrol_Point m_PatrolPoint;
     public Transform m_CurrentPatrolPoint;
+     
     public float StopDistance;
     public Animator m_animator;
     [Input(connectionType = ConnectionType.Multiple)] public bool inputPort;
@@ -51,15 +52,24 @@ public class Zombie_Patrol_Node : BaseNode
         bool flag = m_CurrentPatrolPoint.IsNotNull();
         if (flag==false)
         {
-            m_CurrentPatrolPoint = m_PatrolPoint.firstPatrolPoint;
+           // m_CurrentPatrolPoint = m_PatrolPoint.firstPatrolPoint;
 
         }
-        m_agent?.SetDestination(m_CurrentPatrolPoint.position);
+        else
+        {
+            m_agent?.SetDestination(m_PatrolPoint.CurrentPos.position);
+        }
+        //m_agent?.SetDestination(m_PatrolPoint.CurrentPos.position);
     }
 
     public override void Update()
     {
-        
+        if(m_CurrentPatrolPoint ==null)
+        {
+            m_CurrentPatrolPoint = m_PatrolPoint.GetRandomPatrolPoint;
+            m_agent?.SetDestination(m_PatrolPoint.CurrentPos.position);
+            return;
+        }
          if (m_Sensor.IsDetected)
          {
           

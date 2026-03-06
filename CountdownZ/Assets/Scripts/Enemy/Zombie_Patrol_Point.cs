@@ -4,13 +4,25 @@ using UnityEngine;
 
 public class Zombie_Patrol_Point : MonoBehaviour
 {
-    [SerializeField]private Transform[] m_PatrolPoints;
+    [SerializeField]private List<Transform> m_PatrolPoints=new List<Transform>();
     public Transform firstPatrolPoint;
+    public Transform CurrentPos;
+
+    private void Awake()
+    {
+     
+    }
     public Transform  GetRandomPatrolPoint
     {
         get
         {
-            return m_PatrolPoints[Random.Range(0, m_PatrolPoints.Length-1)]; 
+            CurrentPos = m_PatrolPoints[Random.Range(0, m_PatrolPoints.Count - 1)];
+            return CurrentPos;
+        }
+        set
+        {
+            m_PatrolPoints.Add(value);
         }
     }
+   
 }

@@ -53,7 +53,7 @@ public class PlayerStatus : MonoBehaviour,IDamage,IHealable
 
     private string MyHealthText()
     {
-        var text = m_Health.ToString() + "/" + MAXHEALTH.ToString();
+        var text ="HP:"+m_Health.ToString() + "/" + MAXHEALTH.ToString();
         return text;
     }
 }

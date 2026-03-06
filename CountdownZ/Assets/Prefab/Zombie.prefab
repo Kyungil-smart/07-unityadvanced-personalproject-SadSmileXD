@@ -1398,7 +1398,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1528,7 +1528,7 @@ PrefabInstance:
     - target: {fileID: 2576497379000522722, guid: e2861a0c96be3fe49a7fe241aca28833,
         type: 3}
       propertyPath: m_PatrolPoints.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7759765881405266141, guid: e2861a0c96be3fe49a7fe241aca28833,
         type: 3}
