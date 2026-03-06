@@ -9004,8 +9004,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 281206122}
-        m_TargetAssemblyTypeName: dsdasfdsf, Assembly-CSharp
-        m_MethodName: sdsds
+        m_TargetAssemblyTypeName: GameClear, Assembly-CSharp
+        m_MethodName: Clear
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -60324,7 +60324,7 @@ PrefabInstance:
     - target: {fileID: 7523902964939322934, guid: cb4a8f36e0aa9e84da8a593c75c17d8b,
         type: 3}
       propertyPath: m_currentTime
-      value: 10
+      value: 600
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
